@@ -1,15 +1,19 @@
 package model;
 
+
 import java.util.Objects;
 
 public class City {
+
     private int cityId;
+
     private String cityName;
 
     public City (int cityId, String cityName) {
         this.cityId = cityId;
         this.cityName = cityName;
     }
+
 
     public int getCityId() {
         return cityId;
